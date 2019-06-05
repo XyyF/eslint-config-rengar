@@ -1,0 +1,12 @@
+{
+    "name": "eslint-config-rengar",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "built:lint": "node eslints/tests/",
+        "rc:lint": "eslint --rulesdir eslints/rules/ tests/"
+    },
+    "dependencies": {
+        "eslint": "^5.16.0"
+    }
+}
